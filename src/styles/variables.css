@@ -1,0 +1,186 @@
+/* =========================
+AUTO TAX & TECH - Design System
+Premium Tech Automotive Theme
+=========================== */
+@theme {
+  /* =============== FONTS =============== */
+  --font-inter-tight: 'Inter Tight', sans-serif;
+
+  /* =============== COLORS =============== */
+
+  /* ===========================================
+     1. NÚCLEO DARK (70% do Layout)
+     Base de autoridade e ambiente "High-Tech"
+  =========================================== */
+
+  /* Deep Midnight - Fundo principal */
+  --color-deep-midnight: #0b0d10;
+
+  /* Tech Surface - Cards e painéis glassmorphism */
+  --color-tech-surface: #12151b;
+
+  /* Slate Border - Bordas e elementos estruturais */
+  --color-slate-border: #2a3441;
+
+  /* ===========================================
+     2. NÚCLEO LIGHT (30% do Layout)
+     Seções de "confiança" e "processo"
+  =========================================== */
+
+  /* Ice White - Tipografia em fundos escuros */
+  --color-ice-white: #ffffff;
+
+  /* Clean Slate - Fundo de seções claras */
+  --color-clean-slate: #f8fafc;
+
+  /* Deep Text - Textos sobre fundos claros */
+  --color-deep-text: #0f172a;
+
+  /* ===========================================
+     3. ACENTO E IDENTIDADE (Sinalizador)
+  =========================================== */
+
+  /* Electric Neon - CTAs, ícones ativos, hover */
+  --color-electric-neon: #7cff4e;
+
+  /* Glass Stroke - Efeito de vidro */
+  --color-glass-stroke: rgba(255, 255, 255, 0.05);
+
+  /* ===========================================
+     MAPEAMENTO PARA CLASSES EXISTENTES
+  =========================================== */
+
+  /* Primary Colors - Verde Neon Scale */
+  --color-primary-50: #f0fff4;
+  --color-primary-100: #dcffe4;
+  --color-primary-200: #b8ffc8;
+  --color-primary-300: #7cff4e;
+  --color-primary-400: #6be83f;
+  --color-primary-500: #7cff4e;
+  --color-primary-600: #5cd93a;
+  --color-primary-700: #4bc22f;
+  --color-primary-800: #3da825;
+
+  /* Secondary & Accent */
+  --color-secondary: #0b0d10;
+  --color-accent: #ffffff;
+  --color-split-text: #ffffff;
+
+  /* Backgrounds - Dark */
+  --color-background-1: #0b0d10;
+  --color-background-2: #0e1014;
+  --color-background-3: #12151b;
+  --color-background-4: #161a22;
+  --color-background-5: #12151b;
+  --color-background-6: #0a0c0f;
+  --color-background-7: #181d26;
+  --color-background-8: #070b10;
+  --color-background-9: #1f252f;
+  --color-background-10: #1a1f28;
+  --color-background-11: #6b7280;
+  --color-background-12: #12151b;
+
+  /* Strokes */
+  --color-stroke-1: #2a3441;
+  --color-stroke-2: #2a3441;
+  --color-stroke-3: #2a3441;
+  --color-stroke-4: #2a3441;
+  --color-stroke-5: #2a3441;
+  --color-stroke-6: #2a3441;
+  --color-stroke-7: #2a3441;
+  --color-stroke-8: #2a3441;
+  --color-stroke-9: #070b10;
+
+  /* Accent Colors */
+  --color-ns-green: #7cff4e;
+  --color-ns-yellow: #fbbf24;
+  --color-ns-red: #ef4444;
+  --color-ns-cyan: #22d3ee;
+  --color-ns-green-light: #a3e635;
+  --color-ns-cyan-light: #67e8f9;
+  --color-ns-yellow-light: #fcd34d;
+
+  /* Light Section Colors */
+  --color-light-bg: #f8fafc;
+  --color-light-bg-2: #f1f5f9;
+  --color-light-text: #0f172a;
+  --color-light-text-muted: #475569;
+  --color-light-border: #e2e8f0;
+
+  /* ===========================================
+     GRADIENTS
+  =========================================== */
+  --color-gradient-1: linear-gradient(135deg, #7cff4e 0%, #5cd93a 100%);
+  --color-gradient-2: linear-gradient(135deg, #7cff4e 0%, #3b82f6 100%);
+  --color-gradient-3: linear-gradient(135deg, #22d3ee 0%, #7cff4e 100%);
+  --color-gradient-4: linear-gradient(135deg, #7cff4e 0%, #06b6d4 100%);
+  --color-gradient-5: linear-gradient(165deg, rgba(124, 255, 78, 0.15) 0.51%, rgba(124, 255, 78, 0) 64.43%);
+  --color-gradient-6: linear-gradient(#22d3ee 0%, #7cff4e 100%);
+  --color-gradient-7: linear-gradient(#12151b 0%, #0b0d10 100%);
+  --color-gradient-8: linear-gradient(156deg, #7cff4e 32.92%, #22d3ee 91%);
+  --color-gradient-9: linear-gradient(156deg, #7cff4e 32.92%, #3b82f6 91%);
+  --color-gradient-10: linear-gradient(135deg, #22d3ee 0%, #7cff4e 100%);
+  --color-gradient-11: linear-gradient(179deg, rgba(11, 13, 16, 0) 0.68%, #0b0d10 79.47%);
+  --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #7cff4e 0%, rgba(124, 255, 78, 0) 100%);
+
+  /* ===========================================
+     TYPOGRAPHY
+  =========================================== */
+  --text-heading-1: 4.25rem;
+  --text-heading-1--line-height: 110%;
+  --text-heading-2: 3.25rem;
+  --text-heading-2--line-height: 120%;
+  --text-heading-3: 2.5rem;
+  --text-heading-3--line-height: 120%;
+  --text-heading-4: 2rem;
+  --text-heading-4--line-height: 130%;
+  --text-heading-5: 1.5rem;
+  --text-heading-5--line-height: 140%;
+  --text-heading-6: 1.25rem;
+  --text-heading-6--line-height: 140%;
+  --text-tagline-1: 1rem;
+  --text-tagline-1--line-height: 150%;
+  --text-tagline-2: 0.875rem;
+  --text-tagline-2--line-height: 150%;
+  --text-tagline-3: 0.75rem;
+  --text-tagline-3--line-height: 150%;
+
+  /* blur */
+  --blur-ns-badge-blur: 17.228288650512695px;
+
+  /* ease */
+  --team-ease-1: cubic-bezier(10.34, 10.56, 0.64, 40);
+
+  /* BREAKPOINTS */
+  --breakpoint-lp: 1440px;
+
+  /* ===========================================
+     SHADOWS & EFFECTS
+  =========================================== */
+  --shadow-1: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0px 10px 20px -5px rgba(0, 0, 0, 0.3), 0px 20px 65px -5px rgba(0, 0, 0, 0.2);
+  --shadow-3: 0px 25px 80px -12px rgba(0, 0, 0, 0.4);
+  --shadow-4: 0px 10px 20px -5px rgba(0, 0, 0, 0.3), 0px 20px 65px -5px rgba(0, 0, 0, 0.2);
+  --shadow-5: 0px 25px 80px -12px rgba(0, 0, 0, 0.4);
+  --shadow-6: 0px 44px 64px 0px rgba(0, 0, 0, 0.4);
+  --shadow-7: 0px 4px 6px -1px rgba(0, 0, 0, 0.3), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-8: 0px 12.5px 40px -6px rgba(0, 0, 0, 0.3);
+  --shadow-9: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  --shadow-10: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  --shadow-11: 0px 12px 20px rgba(124, 255, 78, 0.15);
+  --shadow-12: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  --shadow-13: 0 7.818px 15.637px -3.909px rgba(0, 0, 0, 0.2), 0 15.637px 50.819px -3.909px rgba(0, 0, 0, 0.15);
+  --shadow-14: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-15: 40px 28px 80px 0 rgba(0, 0, 0, 0.3);
+
+  /* Neon Glow - Efeito HUD */
+  --shadow-neon-green: 0 0 15px rgba(124, 255, 78, 0.3);
+  --shadow-neon-green-intense: 0 0 20px rgba(124, 255, 78, 0.4), 0 0 40px rgba(124, 255, 78, 0.2);
+  --shadow-neon-cyan: 0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(34, 211, 238, 0.1);
+
+  --stack-cards-gap: 2rem;
+}
+
+.dark {
+  --color-split-text: #ffffff;
+}

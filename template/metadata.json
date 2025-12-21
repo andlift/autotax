@@ -1,0 +1,7 @@
+{
+  "name": "Auto Tax & Tech - Luxembourg",
+  "description": "Premium industrial-tech website for taximeter installation and automotive glass repair in Luxembourg. Features a high-tech dark theme with neon accents.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
