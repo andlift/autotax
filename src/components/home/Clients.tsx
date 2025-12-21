@@ -6,11 +6,11 @@ import RevealAnimation from '../animation/RevealAnimation';
 // Car brand logos
 const carBrands = [
   { id: 1, name: 'Nissan', logo: '/images/nissan.webp' },
-  { id: 2, name: 'Chevrolet', logo: '/images/Chevrolet.png' },
+  { id: 2, name: 'Chevrolet', logo: '/images/chevrolet.png' },
   { id: 3, name: 'Ford', logo: '/images/ford.webp' },
   { id: 4, name: 'Kia', logo: '/images/kia.webp' },
-  { id: 5, name: 'Toyota', logo: '/images/Toyota.png' },
-  { id: 6, name: 'Honda', logo: '/images/Honda.png' },
+  { id: 5, name: 'Toyota', logo: '/images/toyota.png' },
+  { id: 6, name: 'Honda', logo: '/images/honda.png' },
   { id: 7, name: 'BMW', logo: '/images/bmw.webp' },
   { id: 8, name: 'Tesla', logo: '/images/tesla.webp' },
   { id: 9, name: 'Mercedes-Benz', logo: '/images/mercedes.webp' },
