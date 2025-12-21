@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 
-export const DEFAULT_URL = 'https://auto-tax.lu/';
+export const DEFAULT_URL = 'https://autotax-zeta.vercel.app/';
 export const DEFAULT_TITLE = 'AUTO TAX & TECH | Installation Taximètres & Réparation Vitres | Luxembourg';
 export const DEFAULT_DESCRIPTION =
   'Votre alternative pour l\'installation de taximètres et la réparation de vitres automobiles au Luxembourg. Service professionnel, rapide et de qualité à Sandweiler.';
-export const DEFAULT_OG_IMAGE = 'https://auto-tax.lu/images/auto-tax-og.png';
+export const DEFAULT_OG_IMAGE = 'https://autotax-zeta.vercel.app/images/auto-tax-og.png';
 
 const defaultMetadata: Metadata = {
   metadataBase: new URL(DEFAULT_URL),
