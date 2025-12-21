@@ -1,5 +1,16 @@
-import { MobileMenuGroup } from '@/components/shared/mobile-menu/MobileMenu';
 import { FooterOneData } from '@/interface';
+
+interface MobileMenuItem {
+  id: string;
+  label: string;
+  href: string;
+}
+
+interface MobileMenuGroup {
+  id: string;
+  title: string;
+  submenu: MobileMenuItem[];
+}
 
 export const mobileMenuData: MobileMenuGroup[] = [
   {

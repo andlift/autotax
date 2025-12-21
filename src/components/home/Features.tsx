@@ -81,22 +81,16 @@ export default function Features() {
                   className={cn(
                     'h-full rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:border-lime-400 hover:shadow-md',
                   )}>
-                  {/* Icon or Image */}
-                  {'image' in f ? (
-                    <div className="mb-6 flex items-center justify-center">
-                      <Image
-                        src={f.image}
-                        alt={f.title}
-                        width={300}
-                        height={200}
-                        className="h-auto w-full object-contain"
-                      />
-                    </div>
-                  ) : (
-                    <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-lime-100">
-                      <f.icon className="h-7 w-7 text-lime-500" />
-                    </div>
-                  )}
+                  {/* Image */}
+                  <div className="mb-6 flex items-center justify-center">
+                    <Image
+                      src={f.image}
+                      alt={f.title}
+                      width={300}
+                      height={200}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
 
                   {/* Text + bullets */}
                   <div className="space-y-4">
@@ -118,11 +112,9 @@ export default function Features() {
                       ))}
                     </ul>
 
-                    {'price' in f && (
-                      <p className="mt-4 text-2xl font-bold text-slate-600">
-                        {f.price}
-                      </p>
-                    )}
+                    <p className="mt-4 text-2xl font-bold text-slate-600">
+                      {f.price}
+                    </p>
                   </div>
                 </div>
               </RevealAnimation>
