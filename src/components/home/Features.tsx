@@ -51,7 +51,7 @@ export default function Features() {
         <div className="space-y-16">
           {/* Heading */}
           <div className="mx-auto max-w-[724px] space-y-5 text-center md:w-full">
-            <RevealAnimation delay={0.1}>
+            <RevealAnimation delay={0.05}>
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 shadow-sm">
                 <span className="h-2 w-2 rounded-full bg-lime-400" />
                 <span className="text-tagline-2 font-medium uppercase tracking-wider text-slate-400">Taximètres</span>
@@ -59,13 +59,13 @@ export default function Features() {
             </RevealAnimation>
 
             <div className="space-y-3">
-              <RevealAnimation delay={0.2}>
+              <RevealAnimation delay={0.1}>
                 <h2 className="text-3xl font-bold text-slate-950 md:text-4xl lg:text-5xl">
                   Taximètres de la gamme <span className="text-slate-500">REVOLUTION</span>
                 </h2>
               </RevealAnimation>
 
-              <RevealAnimation delay={0.3}>
+              <RevealAnimation delay={0.15}>
                 <p className="text-lg text-slate-400">
                   La gamme de taximètres la plus complète du marché.
                 </p>
@@ -76,7 +76,7 @@ export default function Features() {
           {/* Feature cards */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {FEATURES.map((f, idx) => (
-              <RevealAnimation key={f.id} delay={0.4 + idx * 0.1}>
+              <RevealAnimation key={f.id} delay={0.2 + idx * 0.05}>
                 <div
                   className={cn(
                     'h-full rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:border-lime-400 hover:shadow-md',

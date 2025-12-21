@@ -111,7 +111,7 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <RevealAnimation delay={0.2}>
+          <RevealAnimation delay={0.1}>
             <div className="relative">
               <div className="relative mx-auto max-w-lg lg:max-w-none">
                 <Image

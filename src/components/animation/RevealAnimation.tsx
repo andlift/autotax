@@ -32,7 +32,7 @@ interface RevealAnimationProps {
 
 const RevealAnimation = ({
   children,
-  duration = 0.6,
+  duration = 0.3,
   delay = 0,
   offset = 60,
   instant = false,

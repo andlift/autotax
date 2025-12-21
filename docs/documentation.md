@@ -335,32 +335,6 @@ import Image from 'next/image';
 
 A Vercel e a plataforma serverless criada pelos desenvolvedores do Next.js. Oferece uso gratuito.
 
-**Processo em 3 Etapas:**
-
-#### 1. Criar Conta
-
-- Acesse https://vercel.com/signup
-- Autentique com GitHub
-
-#### 2. Importar Repositorio
-
-- Acesse https://vercel.com/import
-- Conceda acesso aos repositorios
-- Selecione o projeto Next.js
-
-#### 3. Configurar e Deploy
-
-A Vercel detecta automaticamente aplicacoes Next.js e aplica configuracoes otimizadas:
-
-- Nome do projeto
-- Diretorio raiz
-- Comando de build (`yarn build`)
-- Diretorio de saida
-- Comando de desenvolvimento
-
-O tempo de build e inferior a um minuto.
-
----
 
 ## Componentes Base
 
@@ -389,11 +363,3 @@ O tempo de build e inferior a um minuto.
 
 ---
 
-## Suporte
-
-- **Demo**: https://next-sass-html.vercel.app/
-- **Email**: hello@pixels71.com
-
----
-
-*Documentacao extraida em Dezembro 2024*
