@@ -23,6 +23,9 @@ const defaultMetadata: Metadata = {
   },
 };
 
+
+
+
 const generateMetadata = (title?: string, description?: string, canonicaUrl?: string, imageUrl?: string): Metadata => {
   return {
     ...defaultMetadata,
