@@ -360,8 +360,7 @@
         { "title": "Serviço Rápido", "description": "Tempo de imobilização mínimo para o seu negócio de táxi" },
         { "title": "Preços Competitivos", "description": "Melhor relação qualidade-preço para equipamento profissional no Luxemburgo" },
         { "title": "Presença Local", "description": "Sediados em Sandweiler, servimos todo o Luxemburgo" },
-        { "title": "Soluções Completas", "description": "Da instalação ao suporte contínuo" },
-        { "title": "Todas as Marcas", "description": "Trabalhamos com todas as marcas e modelos de veículos" }
+        { "title": "Soluções Completas", "description": "Da instalação ao suporte contínuo" }
       ]
     },
     "cta": {

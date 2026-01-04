@@ -58,8 +58,8 @@ const Hero = () => {
             <div className="relative">
               <div className="relative rounded-2xl border border-slate-800 bg-slate-900/50 p-4 backdrop-blur-sm">
                 <Image
-                  src="/images/auto-tax-taximetro.webp"
-                  alt="AIR W ULTRA Taximeter"
+                  src="/images/auto-tax-taximeter-service.jpg"
+                  alt="AIR W ULTRA Taximeter - Service Professionnel"
                   width={600}
                   height={400}
                   className="w-full rounded-xl object-cover"

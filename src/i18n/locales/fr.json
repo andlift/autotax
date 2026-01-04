@@ -360,8 +360,7 @@
         { "title": "Service rapide", "description": "Temps d'immobilisation minimal pour votre activité taxi" },
         { "title": "Prix compétitifs", "description": "Meilleur rapport qualité-prix pour l'équipement professionnel au Luxembourg" },
         { "title": "Présence locale", "description": "Basés à Sandweiler, nous servons tout le Luxembourg" },
-        { "title": "Solutions complètes", "description": "De l'installation au support continu" },
-        { "title": "Toutes marques", "description": "Nous intervenons sur toutes les marques et modèles de véhicules" }
+        { "title": "Solutions complètes", "description": "De l'installation au support continu" }
       ]
     },
     "cta": {

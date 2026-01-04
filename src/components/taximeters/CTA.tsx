@@ -8,27 +8,27 @@ const CTA = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="bg-slate-950 py-20 md:py-28">
+    <section id="contact" className="bg-gray-50 py-20 md:py-28">
       <div className="main-container">
         <RevealAnimation direction="up" delay={0.1}>
-          <div className="relative overflow-hidden rounded-3xl border border-lime-400/30 bg-gradient-to-br from-lime-400/10 via-slate-900 to-slate-900 p-8 text-center md:p-12 lg:p-16">
+          <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm md:p-12 lg:p-16">
             {/* Decorative elements */}
             <div className="absolute top-0 left-0 h-64 w-64 rounded-full bg-lime-400/10 blur-3xl" />
             <div className="absolute bottom-0 right-0 h-64 w-64 rounded-full bg-lime-400/5 blur-3xl" />
 
             <div className="relative">
-              <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+              <h2 className="mb-6 text-3xl font-bold text-slate-900 md:text-4xl lg:text-5xl">
                 {t('taximetersPage.cta.title')}
               </h2>
 
-              <p className="text-tagline-1 mx-auto mb-8 max-w-2xl text-slate-300">
+              <p className="text-tagline-1 mx-auto mb-8 max-w-2xl text-slate-600">
                 {t('taximetersPage.cta.description')}
               </p>
 
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <LinkButton
                   href="tel:+35226777503"
-                  btnClass="btn-lg !border-lime-400 !bg-lime-400 !text-slate-950 hover:!bg-lime-500 font-semibold">
+                  btnClass="btn-lg !border-lime-500 !bg-lime-500 !text-white hover:!bg-lime-600 font-semibold">
                   <span className="flex items-center gap-2">
                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -44,7 +44,7 @@ const CTA = () => {
 
                 <LinkButton
                   href="mailto:info@autotaxtech.lu"
-                  btnClass="btn-lg !border-slate-700 !bg-slate-900 !text-white hover:!border-lime-400 font-semibold">
+                  btnClass="btn-lg !border-slate-300 !bg-white !text-slate-700 hover:!border-lime-500 hover:!text-lime-600 font-semibold">
                   <span className="flex items-center gap-2">
                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path

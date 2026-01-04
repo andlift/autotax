@@ -4,7 +4,6 @@ import {
   Specs,
   Certifications,
   OurServices,
-  WhyChooseUs,
   CTA,
 } from '@/components/taximeters';
 import { JsonLdMultiple } from '@/components/seo/JsonLd';
@@ -79,7 +78,6 @@ export default async function TaximetresPage() {
         <OurServices />
         <Specs />
         <Certifications />
-        <WhyChooseUs />
         <CTA />
       </main>
     </>

@@ -2,7 +2,7 @@
 
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { useI18n } from '@/i18n/client';
-import { Award, Car, Clock, MapPin, Package, Zap } from 'lucide-react';
+import { Award, Clock, MapPin, Package, Zap } from 'lucide-react';
 import type { Dictionary } from '@/i18n/dictionaries';
 
 interface WhyChooseUsItem {
@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
   const { t, dictionary } = useI18n();
   const taximetersPage = (dictionary as Dictionary & { taximetersPage?: TaximetersPageDict }).taximetersPage;
 
-  const icons = [Award, Clock, Zap, MapPin, Package, Car];
+  const icons = [Award, Clock, Zap, MapPin, Package];
   const items = taximetersPage?.whyChooseUs?.items || [];
 
   return (

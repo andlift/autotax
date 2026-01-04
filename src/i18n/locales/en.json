@@ -360,8 +360,7 @@
         { "title": "Quick Service", "description": "Minimal downtime for your taxi business" },
         { "title": "Competitive Pricing", "description": "Best value for professional equipment in Luxembourg" },
         { "title": "Local Presence", "description": "Based in Sandweiler, we serve all of Luxembourg" },
-        { "title": "Complete Solutions", "description": "From installation to ongoing support" },
-        { "title": "All Brands", "description": "We work with all vehicle makes and models" }
+        { "title": "Complete Solutions", "description": "From installation to ongoing support" }
       ]
     },
     "cta": {
