@@ -1,9 +1,11 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
+import { useTranslation } from '@/i18n/client';
 import { cn } from '@/utils/cn';
 import logoIcon from '@public/images/auto-tax.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+import LanguageSwitcher from '../LanguageSwitcher';
 import MenuCloseButton from './MenuCloseButton';
 
 export interface NavLink {
@@ -13,6 +15,8 @@ export interface NavLink {
 
 const MobileMenu = ({ menuData }: { menuData: NavLink[] }) => {
   const { isOpen, closeMenu } = useMobileMenuContext();
+  const { t } = useTranslation();
+
   return (
     <aside
       className={cn(
@@ -46,6 +50,14 @@ const MobileMenu = ({ menuData }: { menuData: NavLink[] }) => {
               </li>
             ))}
           </ul>
+
+          {/* Language Switcher */}
+          <div className="mt-6">
+            <p className="text-tagline-1 relative mb-4 block font-normal text-slate-500">
+              {t('nav.language')}
+            </p>
+            <LanguageSwitcher />
+          </div>
 
           {/* CTA Button */}
           <div className="mt-8">

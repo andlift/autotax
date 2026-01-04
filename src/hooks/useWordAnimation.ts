@@ -17,6 +17,7 @@ interface UseWordAnimationOptions {
   opacity?: number;
   marginRight?: string;
   delay?: number;
+  locale?: string;
 }
 
 export const useWordAnimation = (options: UseWordAnimationOptions = {}) => {
@@ -29,6 +30,7 @@ export const useWordAnimation = (options: UseWordAnimationOptions = {}) => {
     opacity = 0.1,
     marginRight = '0',
     delay = 100,
+    locale,
   } = options;
 
   const titleRef = useRef<HTMLHeadingElement | null>(null);
@@ -78,7 +80,7 @@ export const useWordAnimation = (options: UseWordAnimationOptions = {}) => {
       };
     },
     {
-      dependencies: [start, end, stagger, duration, ease, opacity, marginRight, delay],
+      dependencies: [start, end, stagger, duration, ease, opacity, marginRight, delay, locale],
       scope: titleRef,
     },
   );

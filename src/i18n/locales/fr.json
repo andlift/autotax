@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "AUTO TAX & TECH | Installation Taximètres & Réparation Vitres",
+    "description": "Votre alternative pour l'installation de taximètres et la réparation de vitres automobiles au Luxembourg. Service professionnel, rapide et de qualité à Sandweiler.",
+    "siteName": "AUTO TAX & TECH"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "contactUs": "Contactez-nous",
+    "callUs": "Appeler",
+    "ourServices": "Nos Services",
+    "viewMore": "Voir plus",
+    "allBrands": "Toutes marques",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "Luxembourg",
+    "title": "AUTO TAX",
+    "titleAccent": "& TECH",
+    "subtitle": "Votre alternative pour l'installation de taximètres",
+    "services": {
+      "taximeters": "Taximètres",
+      "windshield": "Pare-brise",
+      "allBrands": "Toutes marques"
+    },
+    "cta": {
+      "services": "Nos Services",
+      "contact": "Contactez-nous"
+    }
+  },
+  "whatWeDo": {
+    "text": "Votre partenaire de confiance pour",
+    "highlight1": "l'installation de taximètres",
+    "connector": "et la",
+    "highlight2": "réparation de vitres automobiles",
+    "location": "au Luxembourg."
+  },
+  "services": {
+    "taximeters": {
+      "title": "Taximètres",
+      "description": "Installation, configuration et mise en conformité de vos solutions de taximètre.",
+      "features": {
+        "certified": "Installation certifiée",
+        "config": "Configuration technique",
+        "compliance": "Mise en conformité",
+        "support": "Support technique"
+      },
+      "cta": "En savoir plus"
+    },
+    "techGlass": {
+      "title": "Tech Glass",
+      "description": "Réparation et remplacement de pare-brise pour toutes marques de véhicules.",
+      "features": {
+        "windshield": "Pare-brise & Vitres",
+        "allBrands": "Toutes marques",
+        "specialGlass": "Vitrage spécial",
+        "fastService": "Intervention rapide"
+      },
+      "cta": "Voir Tech Glass"
+    }
+  },
+  "features": {
+    "badge": "Taximètres",
+    "title": "Taximètres de la gamme",
+    "titleAccent": "REVOLUTION",
+    "subtitle": "La gamme de taximètres la plus complète du marché.",
+    "products": {
+      "airW": {
+        "title": "AIR W Taximeter",
+        "price": "2100€ TTC",
+        "points": [
+          "Compatible avec l'application 1001TAXIS : Propositions de courses envoyées directement sur votre taximètre*",
+          "Sélection automatique du tarif jour/nuit",
+          "Changement automatique heure été/hiver",
+          "Affichage automatique du minimum de perception"
+        ]
+      },
+      "airS": {
+        "title": "AIR S Taximeter",
+        "price": "2300€ TTC",
+        "points": [
+          "Compatible avec l'application 1001TAXIS*",
+          "Sélection automatique du tarif jour/nuit",
+          "Changement automatique heure été/hiver",
+          "Affichage automatique du minimum de perception"
+        ]
+      },
+      "primus": {
+        "title": "PRIMUS RS-01 Taximeter",
+        "price": "2550€ TTC",
+        "points": [
+          "Compatible avec l'application 1001TAXIS*",
+          "Sélection automatique du tarif jour/nuit",
+          "Changement automatique heure été/hiver",
+          "Affichage automatique du minimum de perception",
+          "Gestion et sélection manuelle des suppléments"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions",
+    "titleAccent": "Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur nos services taximètre et vitrage.",
+    "questions": {
+      "q1": {
+        "question": "Quels types de taximètres installez-vous ?",
+        "answer": "Nous installons les principales marques homologuées au Luxembourg et proposons des solutions alternatives modernes."
+      },
+      "q2": {
+        "question": "Combien de temps prend un remplacement de pare-brise ?",
+        "answer": "La plupart des interventions sont réalisées en moins de 3 heures, incluant le temps de séchage de la colle pour votre sécurité."
+      },
+      "q3": {
+        "question": "Intervenez-vous sur les véhicules électriques ?",
+        "answer": "Oui, nous sommes équipés pour intervenir sur toutes les motorisations, y compris les véhicules hybrides et électriques."
+      },
+      "q4": {
+        "question": "Prenez-vous en charge les démarches avec l'assurance ?",
+        "answer": "Pour Tech Glass, nous pouvons vous accompagner dans vos démarches de bris de glace auprès de votre assureur."
+      },
+      "q5": {
+        "question": "Faut-il un rendez-vous ?",
+        "answer": "Il est préférable de prendre rendez-vous pour garantir une prise en charge immédiate, mais nous gérons les urgences au cas par cas."
+      }
+    }
+  },
+  "footer": {
+    "description": "Votre alternative pour l'installation de taximètres et la réparation de vitres automobiles au Luxembourg.",
+    "sections": {
+      "services": {
+        "title": "Services",
+        "taximeters": "Installation Taximètres",
+        "windshield": "Réparation Pare-brise",
+        "sideWindows": "Vitres Latérales",
+        "maintenance": "Maintenance"
+      },
+      "company": {
+        "title": "Entreprise",
+        "about": "À Propos",
+        "contact": "Contact",
+        "legal": "Mentions Légales",
+        "privacy": "Politique de Confidentialité"
+      },
+      "contact": {
+        "title": "Contact"
+      }
+    },
+    "copyright": "Tous droits réservés.",
+    "address": "Zone Industrielle Rolach, L-5280 Sandweiler – Luxembourg"
+  },
+  "about": {
+    "badge": "À Propos",
+    "title": "L'expertise",
+    "titleAccent": "technique",
+    "titleEnd": "au service des",
+    "titleAccent2": "professionnels",
+    "description1": "Basée au Luxembourg, <strong>AUTO TAX & TECH</strong> est votre partenaire de confiance pour tous vos besoins en équipement de taxi et réparation de vitres automobiles.",
+    "description2": "Notre équipe de techniciens qualifiés combine expertise technique et service client irréprochable pour vous garantir des interventions rapides et de qualité.",
+    "description3": "Que vous soyez un professionnel du transport ou un particulier, nous mettons notre savoir-faire à votre disposition pour des solutions adaptées à vos besoins.",
+    "stats": {
+      "years": "Années d'expérience",
+      "clients": "Clients satisfaits"
+    },
+    "location": {
+      "title": "Notre Atelier",
+      "subtitle": "Zone Industrielle Rolach",
+      "addressLabel": "Adresse",
+      "address": "Zone Industrielle Rolach<br/>L-5280 Sandweiler, Luxembourg",
+      "phoneLabel": "Téléphone",
+      "emailLabel": "Email",
+      "hoursTitle": "Horaires d'ouverture",
+      "weekdays": "Lun - Ven",
+      "saturday": "Samedi",
+      "byAppointment": "Sur rendez-vous"
+    }
+  },
+  "aboutGrid": {
+    "expertise": {
+      "title": "L'expertise technique",
+      "description": "Basée au Luxembourg, AUTO TAX & TECH est votre partenaire de confiance pour tous vos besoins en équipement de taxi et réparation de vitres automobiles."
+    },
+    "technicians": {
+      "title": "Techniciens qualifiés",
+      "description": "Notre équipe de techniciens qualifiés combine expertise technique et service client irréprochable pour vous garantir des interventions rapides et de qualité."
+    },
+    "solutions": {
+      "title": "Solutions adaptées",
+      "description": "Que vous soyez un professionnel du transport ou un particulier, nous mettons notre savoir-faire à votre disposition pour des solutions adaptées à vos besoins."
+    },
+    "quality": {
+      "title": "Service de qualité",
+      "description": "Un service professionnel, rapide et de qualité pour tous vos besoins en taximètres et vitres automobiles."
+    },
+    "location": {
+      "title": "Basés à Sandweiler",
+      "description": "Situés au cœur du Luxembourg, nous intervenons rapidement sur l'ensemble du territoire."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous pour toute question ou demande de devis.",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "techGlass": {
+    "badge": "Pare-brise & Vitres",
+    "title": "Tech Glass – Vitrage",
+    "titleLine2": "automobile de confiance",
+    "features": {
+      "item1": "Pare-brise, vitres latérales et vitrage spécial pour tous types de véhicules.",
+      "item2": "Intervention rapide avec prise en charge par les <strong>assurances luxembourgeoises</strong>.",
+      "item3": "Qualité professionnelle, sécurité garantie."
+    },
+    "cta": "Nous contacter"
+  }
+}

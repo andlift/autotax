@@ -1,38 +1,43 @@
+'use client';
+
+import { useTranslation } from '@/i18n/client';
 import Logo from '@public/images/auto-tax.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const footerLinks = [
-  {
-    title: 'Services',
-    links: [
-      { label: 'Installation Taximètres', href: '#services' },
-      { label: 'Réparation Pare-brise', href: '#services' },
-      { label: 'Vitres Latérales', href: '#services' },
-      { label: 'Maintenance', href: '#services' },
-    ],
-  },
-  {
-    title: 'Entreprise',
-    links: [
-      { label: 'À Propos', href: '#about' },
-      { label: 'Contact', href: '#contact' },
-      { label: 'Mentions Légales', href: '/mentions-legales' },
-      { label: 'Politique de Confidentialité', href: '/politique-confidentialite' },
-    ],
-  },
-  {
-    title: 'Contact',
-    links: [
-      { label: '+352 26 777 503', href: 'tel:+35226777503' },
-      { label: 'info@autotaxtech.lu', href: 'mailto:info@autotaxtech.lu' },
-      { label: 'Zone Industrielle Rolach', href: '#' },
-      { label: 'L-5280 Sandweiler', href: '#' },
-    ],
-  },
-];
-
 const Footer = () => {
+  const { t } = useTranslation();
+
+  const footerLinks = [
+    {
+      title: t('footer.sections.services.title'),
+      links: [
+        { label: t('footer.sections.services.taximeters'), href: '#services' },
+        { label: t('footer.sections.services.windshield'), href: '#services' },
+        { label: t('footer.sections.services.sideWindows'), href: '#services' },
+        { label: t('footer.sections.services.maintenance'), href: '#services' },
+      ],
+    },
+    {
+      title: t('footer.sections.company.title'),
+      links: [
+        { label: t('footer.sections.company.about'), href: '#about' },
+        { label: t('footer.sections.company.contact'), href: '#contact' },
+        { label: t('footer.sections.company.legal'), href: '/mentions-legales' },
+        { label: t('footer.sections.company.privacy'), href: '/politique-confidentialite' },
+      ],
+    },
+    {
+      title: t('footer.sections.contact.title'),
+      links: [
+        { label: '+352 26 777 503', href: 'tel:+35226777503' },
+        { label: 'info@autotaxtech.lu', href: 'mailto:info@autotaxtech.lu' },
+        { label: 'Zone Industrielle Rolach', href: '#' },
+        { label: 'L-5280 Sandweiler', href: '#' },
+      ],
+    },
+  ];
+
   return (
     <footer className="relative overflow-hidden border-t border-slate-800 bg-slate-950">
       {/* Background gradient */}
@@ -50,8 +55,7 @@ const Footer = () => {
                 </figure>
               </Link>
               <p className="mb-6 text-white/60">
-                Votre alternative pour l&apos;installation de taximètres et la réparation de vitres automobiles au
-                Luxembourg.
+                {t('footer.description')}
               </p>
 
               {/* Social Links */}
@@ -121,10 +125,10 @@ const Footer = () => {
         <div className="relative border-t border-slate-800 py-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-tagline-2 text-white/40">
-              &copy; {new Date().getFullYear()} AUTO TAX & TECH. Tous droits réservés.
+              &copy; {new Date().getFullYear()} AUTO TAX & TECH. {t('footer.copyright')}
             </p>
             <div className="text-tagline-2 flex items-center gap-1 text-white/40">
-              <span>Zone Industrielle Rolach, L-5280 Sandweiler – Luxembourg</span>
+              <span>{t('footer.address')}</span>
             </div>
           </div>
         </div>

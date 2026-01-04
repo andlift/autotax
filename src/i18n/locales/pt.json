@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "AUTO TAX & TECH | Instalação de Taxímetros & Reparação de Vidros",
+    "description": "A sua alternativa para instalação de taxímetros e reparação de vidros automóveis no Luxemburgo. Serviço profissional, rápido e de qualidade em Sandweiler.",
+    "siteName": "AUTO TAX & TECH"
+  },
+  "common": {
+    "learnMore": "Saber Mais",
+    "contactUs": "Contacte-nos",
+    "callUs": "Ligar",
+    "ourServices": "Nossos Serviços",
+    "viewMore": "Ver Mais",
+    "allBrands": "Todas as Marcas",
+    "loading": "A carregar...",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "faq": "FAQ",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Luxemburgo",
+    "title": "AUTO TAX",
+    "titleAccent": "& TECH",
+    "subtitle": "A sua alternativa para instalação de taxímetros",
+    "services": {
+      "taximeters": "Taxímetros",
+      "windshield": "Pára-brisas",
+      "allBrands": "Todas as Marcas"
+    },
+    "cta": {
+      "services": "Nossos Serviços",
+      "contact": "Contacte-nos"
+    }
+  },
+  "whatWeDo": {
+    "text": "O seu parceiro de confiança para",
+    "highlight1": "instalação de taxímetros",
+    "connector": "e",
+    "highlight2": "reparação de vidros automóveis",
+    "location": "no Luxemburgo."
+  },
+  "services": {
+    "taximeters": {
+      "title": "Taxímetros",
+      "description": "Instalação, configuração e conformidade das suas soluções de taxímetro.",
+      "features": {
+        "certified": "Instalação Certificada",
+        "config": "Configuração Técnica",
+        "compliance": "Conformidade",
+        "support": "Suporte Técnico"
+      },
+      "cta": "Saber Mais"
+    },
+    "techGlass": {
+      "title": "Tech Glass",
+      "description": "Reparação e substituição de pára-brisas para todas as marcas de veículos.",
+      "features": {
+        "windshield": "Pára-brisas & Vidros",
+        "allBrands": "Todas as Marcas",
+        "specialGlass": "Vidros Especiais",
+        "fastService": "Serviço Rápido"
+      },
+      "cta": "Ver Tech Glass"
+    }
+  },
+  "features": {
+    "badge": "Taxímetros",
+    "title": "Taxímetros da gama",
+    "titleAccent": "REVOLUTION",
+    "subtitle": "A gama de taxímetros mais completa do mercado.",
+    "products": {
+      "airW": {
+        "title": "AIR W Taximeter",
+        "price": "2100€ c/ IVA",
+        "points": [
+          "Compatível com a aplicação 1001TAXIS: Propostas de corridas enviadas diretamente para o seu taxímetro*",
+          "Seleção automática de tarifa dia/noite",
+          "Mudança automática de hora verão/inverno",
+          "Exibição automática do valor mínimo"
+        ]
+      },
+      "airS": {
+        "title": "AIR S Taximeter",
+        "price": "2300€ c/ IVA",
+        "points": [
+          "Compatível com a aplicação 1001TAXIS*",
+          "Seleção automática de tarifa dia/noite",
+          "Mudança automática de hora verão/inverno",
+          "Exibição automática do valor mínimo"
+        ]
+      },
+      "primus": {
+        "title": "PRIMUS RS-01 Taximeter",
+        "price": "2550€ c/ IVA",
+        "points": [
+          "Compatível com a aplicação 1001TAXIS*",
+          "Seleção automática de tarifa dia/noite",
+          "Mudança automática de hora verão/inverno",
+          "Exibição automática do valor mínimo",
+          "Gestão e seleção manual de suplementos"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Perguntas",
+    "titleAccent": "Frequentes",
+    "subtitle": "Tudo o que precisa saber sobre os nossos serviços de taxímetros e vidros.",
+    "questions": {
+      "q1": {
+        "question": "Que tipos de taxímetros instalam?",
+        "answer": "Instalamos as principais marcas homologadas no Luxemburgo e oferecemos soluções alternativas modernas."
+      },
+      "q2": {
+        "question": "Quanto tempo demora a substituição de um pára-brisas?",
+        "answer": "A maioria das intervenções é realizada em menos de 3 horas, incluindo o tempo de secagem da cola para sua segurança."
+      },
+      "q3": {
+        "question": "Trabalham com veículos elétricos?",
+        "answer": "Sim, estamos equipados para trabalhar com todos os tipos de motorizações, incluindo veículos híbridos e elétricos."
+      },
+      "q4": {
+        "question": "Tratam das questões com o seguro?",
+        "answer": "Para o Tech Glass, podemos ajudá-lo nas suas reclamações de quebra de vidros junto da sua seguradora."
+      },
+      "q5": {
+        "question": "Preciso de marcação?",
+        "answer": "É preferível fazer marcação para garantir atendimento imediato, mas tratamos de emergências caso a caso."
+      }
+    }
+  },
+  "footer": {
+    "description": "A sua alternativa para instalação de taxímetros e reparação de vidros automóveis no Luxemburgo.",
+    "sections": {
+      "services": {
+        "title": "Serviços",
+        "taximeters": "Instalação de Taxímetros",
+        "windshield": "Reparação de Pára-brisas",
+        "sideWindows": "Vidros Laterais",
+        "maintenance": "Manutenção"
+      },
+      "company": {
+        "title": "Empresa",
+        "about": "Sobre",
+        "contact": "Contacto",
+        "legal": "Avisos Legais",
+        "privacy": "Política de Privacidade"
+      },
+      "contact": {
+        "title": "Contacto"
+      }
+    },
+    "copyright": "Todos os direitos reservados.",
+    "address": "Zone Industrielle Rolach, L-5280 Sandweiler – Luxemburgo"
+  },
+  "about": {
+    "badge": "Sobre",
+    "title": "Experiência",
+    "titleAccent": "técnica",
+    "titleEnd": "ao serviço dos",
+    "titleAccent2": "profissionais",
+    "description1": "Sediada no Luxemburgo, a <strong>AUTO TAX & TECH</strong> é o seu parceiro de confiança para todas as suas necessidades de equipamento de táxi e reparação de vidros automóveis.",
+    "description2": "A nossa equipa de técnicos qualificados combina experiência técnica e serviço ao cliente impecável para lhe garantir intervenções rápidas e de qualidade.",
+    "description3": "Seja um profissional de transportes ou um particular, colocamos o nosso know-how ao seu dispor para soluções adaptadas às suas necessidades.",
+    "stats": {
+      "years": "Anos de experiência",
+      "clients": "Clientes satisfeitos"
+    },
+    "location": {
+      "title": "A Nossa Oficina",
+      "subtitle": "Zone Industrielle Rolach",
+      "addressLabel": "Morada",
+      "address": "Zone Industrielle Rolach<br/>L-5280 Sandweiler, Luxemburgo",
+      "phoneLabel": "Telefone",
+      "emailLabel": "Email",
+      "hoursTitle": "Horário de Funcionamento",
+      "weekdays": "Seg - Sex",
+      "saturday": "Sábado",
+      "byAppointment": "Com marcação"
+    }
+  },
+  "aboutGrid": {
+    "expertise": {
+      "title": "Experiência técnica",
+      "description": "Sediada no Luxemburgo, a AUTO TAX & TECH é o seu parceiro de confiança para todas as suas necessidades de equipamento de táxi e reparação de vidros automóveis."
+    },
+    "technicians": {
+      "title": "Técnicos qualificados",
+      "description": "A nossa equipa de técnicos qualificados combina experiência técnica e serviço ao cliente impecável para lhe garantir intervenções rápidas e de qualidade."
+    },
+    "solutions": {
+      "title": "Soluções adaptadas",
+      "description": "Seja um profissional de transportes ou um particular, colocamos o nosso know-how ao seu dispor para soluções adaptadas às suas necessidades."
+    },
+    "quality": {
+      "title": "Serviço de qualidade",
+      "description": "Um serviço profissional, rápido e de qualidade para todas as suas necessidades de taxímetros e vidros automóveis."
+    },
+    "location": {
+      "title": "Sediados em Sandweiler",
+      "description": "Situados no coração do Luxemburgo, intervimos rapidamente em todo o território."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Contacte-nos para qualquer questão ou pedido de orçamento.",
+    "form": {
+      "name": "O Seu Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "submit": "Enviar"
+    }
+  },
+  "techGlass": {
+    "badge": "Pára-brisas & Vidros",
+    "title": "Tech Glass – Vidros",
+    "titleLine2": "automóveis de confiança",
+    "features": {
+      "item1": "Pára-brisas, vidros laterais e vidros especiais para todos os tipos de veículos.",
+      "item2": "Intervenção rápida com cobertura pelos <strong>seguros luxemburgueses</strong>.",
+      "item3": "Qualidade profissional, segurança garantida."
+    },
+    "cta": "Contacte-nos"
+  }
+}

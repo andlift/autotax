@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "AUTO TAX & TECH | Taximeter Installation & Windshield Repair",
+    "description": "Your alternative for taximeter installation and automotive glass repair in Luxembourg. Professional, fast and quality service in Sandweiler.",
+    "siteName": "AUTO TAX & TECH"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "callUs": "Call",
+    "ourServices": "Our Services",
+    "viewMore": "View More",
+    "allBrands": "All Brands",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Luxembourg",
+    "title": "AUTO TAX",
+    "titleAccent": "& TECH",
+    "subtitle": "Your alternative for taximeter installation",
+    "services": {
+      "taximeters": "Taximeters",
+      "windshield": "Windshield",
+      "allBrands": "All Brands"
+    },
+    "cta": {
+      "services": "Our Services",
+      "contact": "Contact Us"
+    }
+  },
+  "whatWeDo": {
+    "text": "Your trusted partner for",
+    "highlight1": "taximeter installation",
+    "connector": "and",
+    "highlight2": "automotive glass repair",
+    "location": "in Luxembourg."
+  },
+  "services": {
+    "taximeters": {
+      "title": "Taximeters",
+      "description": "Installation, configuration and compliance of your taximeter solutions.",
+      "features": {
+        "certified": "Certified Installation",
+        "config": "Technical Configuration",
+        "compliance": "Compliance",
+        "support": "Technical Support"
+      },
+      "cta": "Learn More"
+    },
+    "techGlass": {
+      "title": "Tech Glass",
+      "description": "Windshield repair and replacement for all vehicle brands.",
+      "features": {
+        "windshield": "Windshield & Windows",
+        "allBrands": "All Brands",
+        "specialGlass": "Special Glazing",
+        "fastService": "Fast Service"
+      },
+      "cta": "View Tech Glass"
+    }
+  },
+  "features": {
+    "badge": "Taximeters",
+    "title": "Taximeters from the",
+    "titleAccent": "REVOLUTION",
+    "subtitle": "The most complete range of taximeters on the market.",
+    "products": {
+      "airW": {
+        "title": "AIR W Taximeter",
+        "price": "2100€ incl. VAT",
+        "points": [
+          "Compatible with 1001TAXIS app: Ride proposals sent directly to your taximeter*",
+          "Automatic day/night rate selection",
+          "Automatic summer/winter time change",
+          "Automatic minimum fare display"
+        ]
+      },
+      "airS": {
+        "title": "AIR S Taximeter",
+        "price": "2300€ incl. VAT",
+        "points": [
+          "Compatible with 1001TAXIS app*",
+          "Automatic day/night rate selection",
+          "Automatic summer/winter time change",
+          "Automatic minimum fare display"
+        ]
+      },
+      "primus": {
+        "title": "PRIMUS RS-01 Taximeter",
+        "price": "2550€ incl. VAT",
+        "points": [
+          "Compatible with 1001TAXIS app*",
+          "Automatic day/night rate selection",
+          "Automatic summer/winter time change",
+          "Automatic minimum fare display",
+          "Manual supplement management and selection"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked",
+    "titleAccent": "Questions",
+    "subtitle": "Everything you need to know about our taximeter and glazing services.",
+    "questions": {
+      "q1": {
+        "question": "What types of taximeters do you install?",
+        "answer": "We install the main approved brands in Luxembourg and offer modern alternative solutions."
+      },
+      "q2": {
+        "question": "How long does a windshield replacement take?",
+        "answer": "Most interventions are completed in less than 3 hours, including the glue drying time for your safety."
+      },
+      "q3": {
+        "question": "Do you work on electric vehicles?",
+        "answer": "Yes, we are equipped to work on all types of engines, including hybrid and electric vehicles."
+      },
+      "q4": {
+        "question": "Do you handle insurance claims?",
+        "answer": "For Tech Glass, we can assist you with your glass breakage claims with your insurer."
+      },
+      "q5": {
+        "question": "Do I need an appointment?",
+        "answer": "It is preferable to make an appointment to guarantee immediate service, but we handle emergencies on a case-by-case basis."
+      }
+    }
+  },
+  "footer": {
+    "description": "Your alternative for taximeter installation and automotive glass repair in Luxembourg.",
+    "sections": {
+      "services": {
+        "title": "Services",
+        "taximeters": "Taximeter Installation",
+        "windshield": "Windshield Repair",
+        "sideWindows": "Side Windows",
+        "maintenance": "Maintenance"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About",
+        "contact": "Contact",
+        "legal": "Legal Notice",
+        "privacy": "Privacy Policy"
+      },
+      "contact": {
+        "title": "Contact"
+      }
+    },
+    "copyright": "All rights reserved.",
+    "address": "Zone Industrielle Rolach, L-5280 Sandweiler – Luxembourg"
+  },
+  "about": {
+    "badge": "About",
+    "title": "Technical",
+    "titleAccent": "expertise",
+    "titleEnd": "at the service of",
+    "titleAccent2": "professionals",
+    "description1": "Based in Luxembourg, <strong>AUTO TAX & TECH</strong> is your trusted partner for all your taxi equipment and automotive glass repair needs.",
+    "description2": "Our team of qualified technicians combines technical expertise and impeccable customer service to guarantee you fast and quality interventions.",
+    "description3": "Whether you are a transport professional or an individual, we put our know-how at your disposal for solutions adapted to your needs.",
+    "stats": {
+      "years": "Years of experience",
+      "clients": "Satisfied clients"
+    },
+    "location": {
+      "title": "Our Workshop",
+      "subtitle": "Zone Industrielle Rolach",
+      "addressLabel": "Address",
+      "address": "Zone Industrielle Rolach<br/>L-5280 Sandweiler, Luxembourg",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "hoursTitle": "Opening Hours",
+      "weekdays": "Mon - Fri",
+      "saturday": "Saturday",
+      "byAppointment": "By appointment"
+    }
+  },
+  "aboutGrid": {
+    "expertise": {
+      "title": "Technical expertise",
+      "description": "Based in Luxembourg, AUTO TAX & TECH is your trusted partner for all your taxi equipment and automotive glass repair needs."
+    },
+    "technicians": {
+      "title": "Qualified technicians",
+      "description": "Our team of qualified technicians combines technical expertise and impeccable customer service to guarantee you fast and quality interventions."
+    },
+    "solutions": {
+      "title": "Tailored solutions",
+      "description": "Whether you are a transport professional or an individual, we put our know-how at your disposal for solutions adapted to your needs."
+    },
+    "quality": {
+      "title": "Quality service",
+      "description": "A professional, fast and quality service for all your taximeter and automotive glass needs."
+    },
+    "location": {
+      "title": "Based in Sandweiler",
+      "description": "Located in the heart of Luxembourg, we intervene quickly throughout the territory."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact us for any questions or quote requests.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "techGlass": {
+    "badge": "Windshield & Windows",
+    "title": "Tech Glass – Trusted",
+    "titleLine2": "automotive glazing",
+    "features": {
+      "item1": "Windshield, side windows and special glazing for all types of vehicles.",
+      "item2": "Fast service with coverage by <strong>Luxembourg insurance</strong>.",
+      "item3": "Professional quality, guaranteed safety."
+    },
+    "cta": "Contact Us"
+  }
+}

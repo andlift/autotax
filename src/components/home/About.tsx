@@ -1,7 +1,12 @@
+'use client';
+
+import { useTranslation } from '@/i18n/client';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/Button';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="overflow-x-hidden bg-slate-950 py-18 md:py-28">
       <div className="main-container">
@@ -11,29 +16,22 @@ const About = () => {
             <RevealAnimation delay={0.1} direction="left">
               <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900/50 px-4 py-2">
                 <span className="h-2 w-2 rounded-full bg-lime-400" />
-                <span className="text-tagline-2 font-medium uppercase tracking-wider text-slate-300">À Propos</span>
+                <span className="text-tagline-2 font-medium uppercase tracking-wider text-slate-300">
+                  {t('about.badge')}
+                </span>
               </div>
             </RevealAnimation>
             <RevealAnimation delay={0.1} direction="left">
               <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
-                L&apos;expertise <span className="text-lime-400">technique</span> au service des{' '}
-                <span className="text-lime-400">professionnels</span>
+                {t('about.title')} <span className="text-lime-400">{t('about.titleAccent')}</span> {t('about.titleEnd')}{' '}
+                <span className="text-lime-400">{t('about.titleAccent2')}</span>
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.1} direction="left">
               <div className="mb-8 space-y-4 text-slate-400">
-                <p>
-                  Basée au Luxembourg, <strong className="text-white">AUTO TAX & TECH</strong> est votre partenaire de
-                  confiance pour tous vos besoins en équipement de taxi et réparation de vitres automobiles.
-                </p>
-                <p>
-                  Notre équipe de techniciens qualifiés combine expertise technique et service client irréprochable pour
-                  vous garantir des interventions rapides et de qualité.
-                </p>
-                <p>
-                  Que vous soyez un professionnel du transport ou un particulier, nous mettons notre savoir-faire à
-                  votre disposition pour des solutions adaptées à vos besoins.
-                </p>
+                <p dangerouslySetInnerHTML={{ __html: t('about.description1') }} />
+                <p>{t('about.description2')}</p>
+                <p>{t('about.description3')}</p>
               </div>
             </RevealAnimation>
 
@@ -42,11 +40,11 @@ const About = () => {
               <div className="mb-8 grid grid-cols-2 gap-4">
                 <div className="rounded-xl border border-slate-800 bg-slate-900/30 p-4">
                   <p className="mb-1 text-2xl font-bold text-lime-400">15+</p>
-                  <p className="text-tagline-2 text-slate-400">Années d&apos;expérience</p>
+                  <p className="text-tagline-2 text-slate-400">{t('about.stats.years')}</p>
                 </div>
                 <div className="rounded-xl border border-slate-800 bg-slate-900/30 p-4">
                   <p className="mb-1 text-2xl font-bold text-lime-400">500+</p>
-                  <p className="text-tagline-2 text-slate-400">Clients satisfaits</p>
+                  <p className="text-tagline-2 text-slate-400">{t('about.stats.clients')}</p>
                 </div>
               </div>
             </RevealAnimation>
@@ -56,7 +54,7 @@ const About = () => {
                 <LinkButton
                   href="#contact"
                   btnClass="btn-xl-v2 !border-lime-400 !bg-lime-400 !text-slate-950 hover:!bg-lime-500 font-semibold">
-                  Contactez-nous
+                  {t('common.contactUs')}
                 </LinkButton>
               </div>
             </RevealAnimation>
@@ -90,8 +88,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-white">Notre Atelier</p>
-                      <p className="text-tagline-2 text-slate-400">Zone Industrielle Rolach</p>
+                      <p className="font-semibold text-white">{t('about.location.title')}</p>
+                      <p className="text-tagline-2 text-slate-400">{t('about.location.subtitle')}</p>
                     </div>
                   </div>
 
@@ -110,12 +108,11 @@ const About = () => {
                         />
                       </svg>
                       <div>
-                        <p className="text-sm font-medium text-white">Adresse</p>
-                        <p className="text-tagline-2 text-slate-400">
-                          Zone Industrielle Rolach
-                          <br />
-                          L-5280 Sandweiler, Luxembourg
-                        </p>
+                        <p className="text-sm font-medium text-white">{t('about.location.addressLabel')}</p>
+                        <p
+                          className="text-tagline-2 text-slate-400"
+                          dangerouslySetInnerHTML={{ __html: t('about.location.address') }}
+                        />
                       </div>
                     </div>
 
@@ -133,7 +130,7 @@ const About = () => {
                         />
                       </svg>
                       <div>
-                        <p className="text-sm font-medium text-white">Téléphone</p>
+                        <p className="text-sm font-medium text-white">{t('about.location.phoneLabel')}</p>
                         <p className="text-tagline-2 text-slate-400">+352 26 777 503</p>
                       </div>
                     </div>
@@ -152,7 +149,7 @@ const About = () => {
                         />
                       </svg>
                       <div>
-                        <p className="text-sm font-medium text-white">Email</p>
+                        <p className="text-sm font-medium text-white">{t('about.location.emailLabel')}</p>
                         <p className="text-tagline-2 text-slate-400">info@autotaxtech.lu</p>
                       </div>
                     </div>
@@ -160,15 +157,15 @@ const About = () => {
 
                   {/* Horaires */}
                   <div className="mt-6 rounded-xl border border-slate-800 bg-slate-900/50 p-4">
-                    <p className="mb-2 text-sm font-medium text-white">Horaires d&apos;ouverture</p>
+                    <p className="mb-2 text-sm font-medium text-white">{t('about.location.hoursTitle')}</p>
                     <div className="text-tagline-2 space-y-1 text-slate-400">
                       <div className="flex justify-between">
-                        <span>Lun - Ven</span>
+                        <span>{t('about.location.weekdays')}</span>
                         <span className="text-white">08:00 - 18:00</span>
                       </div>
                       <div className="flex justify-between">
-                        <span>Samedi</span>
-                        <span className="text-white">Sur rendez-vous</span>
+                        <span>{t('about.location.saturday')}</span>
+                        <span className="text-white">{t('about.location.byAppointment')}</span>
                       </div>
                     </div>
                   </div>

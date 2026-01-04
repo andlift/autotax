@@ -30,6 +30,14 @@ export const metadata: Metadata = {
       'Votre alternative pour l\'installation de taximètres et la réparation de vitres automobiles au Luxembourg.',
     type: 'website',
     locale: 'fr_LU',
+    images: [{ url: 'https://autotax-zeta.vercel.app/images/auto-tax-og.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AUTO TAX & TECH | Installation Taximètres & Réparation Vitres | Luxembourg',
+    description:
+      'Votre alternative pour l\'installation de taximètres et la réparation de vitres automobiles au Luxembourg.',
+    images: ['https://autotax-zeta.vercel.app/images/auto-tax-og.png'],
   },
 };
 

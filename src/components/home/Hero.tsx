@@ -1,15 +1,20 @@
+'use client';
+
+import { useTranslation } from '@/i18n/client';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/Button';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative z-0 overflow-hidden bg-slate-950 pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32">
       {/* Background gradient effects */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 left-0 h-[600px] w-[600px] rounded-full bg-lime-400/20 opacity-30 blur-3xl" />
-        <div className="absolute top-1/4 right-0 h-[400px] w-[400px] rounded-full bg-slate-800/50 blur-3xl" />
-        <div className="absolute bottom-0 left-1/3 h-[300px] w-[300px] rounded-full bg-lime-400/5 blur-3xl" />
+        <div className="absolute top-0 left-0 h-150 w-150 rounded-full bg-lime-400/20 opacity-30 blur-3xl" />
+        <div className="absolute top-1/4 right-0 h-100 w-100 rounded-full bg-slate-800/50 blur-3xl" />
+        <div className="absolute bottom-0 left-1/3 h-75 w-75 rounded-full bg-lime-400/5 blur-3xl" />
       </div>
 
       {/* Circuit pattern overlay */}
@@ -30,21 +35,21 @@ const Hero = () => {
             <RevealAnimation delay={0.1}>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900/50 px-4 py-2 backdrop-blur-sm">
                 <span className="h-2 w-2 animate-pulse rounded-full bg-lime-400" />
-                <span className="text-tagline-2 font-medium uppercase tracking-wider text-slate-300">Luxembourg</span>
+                <span className="text-tagline-2 font-medium uppercase tracking-wider text-slate-300">{t('hero.badge')}</span>
               </div>
             </RevealAnimation>
 
             {/* Main Title */}
             <RevealAnimation delay={0.1}>
               <h1 className="mb-6 text-4xl font-bold uppercase tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl">
-                <span className="text-lime-400">AUTO TAX</span> & TECH
+                <span className="text-lime-400">{t('hero.title')}</span> {t('hero.titleAccent')}
               </h1>
             </RevealAnimation>
 
             {/* Subtitle */}
             <RevealAnimation delay={0.1}>
               <p className="mx-auto mb-4 max-w-2xl text-lg text-slate-400 md:text-xl lg:mx-0 lg:text-2xl">
-                Votre alternative pour l&apos;installation de taximètres
+                {t('hero.subtitle')}
               </p>
             </RevealAnimation>
 
@@ -60,7 +65,7 @@ const Hero = () => {
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Taximètres
+                  {t('hero.services.taximeters')}
                 </span>
                 <span className="text-slate-700">|</span>
                 <span className="text-tagline-1 flex items-center gap-2 text-slate-400">
@@ -72,7 +77,7 @@ const Hero = () => {
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Pare-brise
+                  {t('hero.services.windshield')}
                 </span>
                 <span className="text-slate-700">|</span>
                 <span className="text-tagline-1 flex items-center gap-2 text-slate-400">
@@ -84,7 +89,7 @@ const Hero = () => {
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Toutes marques
+                  {t('hero.services.allBrands')}
                 </span>
               </div>
             </RevealAnimation>
@@ -96,14 +101,14 @@ const Hero = () => {
                   <LinkButton
                     href="#services"
                     btnClass="btn-xl-v2 !border-lime-400 !bg-lime-400 !text-slate-950 hover:!bg-lime-500 font-semibold">
-                    Nos Services
+                    {t('hero.cta.services')}
                   </LinkButton>
                 </li>
                 <li>
                   <LinkButton
                     href="#contact"
                     btnClass="btn-xl-v2 !border-slate-800 !bg-transparent !text-white hover:!border-lime-400 hover:!text-lime-400">
-                    Contactez-nous
+                    {t('hero.cta.contact')}
                   </LinkButton>
                 </li>
               </ul>
