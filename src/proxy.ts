@@ -55,12 +55,11 @@ export default function proxy(request: NextRequest) {
   let locale: Locale;
 
   if (cookieLocale && isValidLocale(cookieLocale)) {
-    // Use cookie locale
+    // Use cookie locale (user already selected a language)
     locale = cookieLocale;
   } else {
-    // Detect from browser
-    const acceptLanguage = request.headers.get('accept-language');
-    locale = getPreferredLocale(acceptLanguage);
+    // Default to French for new visitors
+    locale = defaultLocale;
   }
 
   // Create response
