@@ -8,13 +8,20 @@ import { cn } from '@/utils/cn';
 import mainLogo from '@public/images/auto-tax.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 import LanguageSwitcher from '../LanguageSwitcher';
 import MobileMenu from '../mobile-menu/MobileMenu';
 import MobileMenuButton from './MobileMenuButton';
+import ServicesMenu from './ServicesMenu';
 
 const Navbar = ({ showTopNav }: { showTopNav: boolean }) => {
   const { isScrolled } = useNavbarScroll(150);
   const { t } = useTranslation();
+  const [menuDropdownId, setMenuDropdownId] = useState<string | null>(null);
+
+  const handleMenuHover = (dropdownId?: string | null) => {
+    setMenuDropdownId(dropdownId || null);
+  };
 
   const navLinks = [
     { label: t('nav.home'), href: '/' },
@@ -26,6 +33,7 @@ const Navbar = ({ showTopNav }: { showTopNav: boolean }) => {
   return (
     <MobileMenuProvider>
       <header
+        onMouseLeave={() => handleMenuHover(null)}
         className={cn(
           'lp:max-w-[1290px] fixed top-5 left-1/2 z-50 mx-auto w-full max-w-[350px] -translate-x-1/2 rounded-full backdrop-blur-[25px] transition-all duration-500 ease-in-out min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]',
           showTopNav ? 'top-14 max-md:top-14' : 'top-5',
@@ -48,15 +56,56 @@ const Navbar = ({ showTopNav }: { showTopNav: boolean }) => {
               {/* Desktop Navigation */}
               <nav className="hidden items-center xl:flex">
                 <ul className="flex items-center gap-1">
-                  {navLinks.map((link) => (
-                    <li key={link.href} className="py-2.5">
-                      <Link
-                        href={link.href}
-                        className="text-tagline-1 flex items-center gap-1 rounded-full px-4 py-2 font-medium text-white/80 transition-all duration-200 hover:text-lime-400">
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
+                  {/* Home */}
+                  <li className="py-2.5">
+                    <Link
+                      href="/"
+                      className="text-tagline-1 flex items-center gap-1 rounded-full px-4 py-2 font-medium text-white/80 transition-all duration-200 hover:text-lime-400">
+                      {t('nav.home')}
+                    </Link>
+                  </li>
+
+                  {/* Services with Dropdown */}
+                  <li
+                    className="nav-item relative cursor-pointer py-2.5"
+                    data-menu="services-dropdown-menu"
+                    onMouseEnter={() => handleMenuHover('services-dropdown-menu')}>
+                    <Link
+                      href="#services"
+                      className="text-tagline-1 flex items-center gap-1 rounded-full px-4 py-2 font-medium text-white/80 transition-all duration-200 hover:text-lime-400">
+                      <span>{t('nav.services')}</span>
+                      <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="size-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </span>
+                    </Link>
+                    <ServicesMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  </li>
+
+                  {/* About */}
+                  <li className="py-2.5">
+                    <Link
+                      href="#about"
+                      className="text-tagline-1 flex items-center gap-1 rounded-full px-4 py-2 font-medium text-white/80 transition-all duration-200 hover:text-lime-400">
+                      {t('nav.about')}
+                    </Link>
+                  </li>
+
+                  {/* Contact */}
+                  <li className="py-2.5">
+                    <Link
+                      href="#contact"
+                      className="text-tagline-1 flex items-center gap-1 rounded-full px-4 py-2 font-medium text-white/80 transition-all duration-200 hover:text-lime-400">
+                      {t('nav.contact')}
+                    </Link>
+                  </li>
                 </ul>
               </nav>
 

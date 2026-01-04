@@ -229,5 +229,145 @@
       "item3": "Qualité professionnelle, sécurité garantie."
     },
     "cta": "Nous contacter"
+  },
+  "taximetersPage": {
+    "hero": {
+      "badge": "Services Taximètres",
+      "title": "Solutions Professionnelles",
+      "titleAccent": "de Taximètres",
+      "subtitle": "Installation, programmation et maintenance certifiées des taximètres AIR W ULTRA au Luxembourg",
+      "description": "AUTO TAX & TECH est votre partenaire de confiance pour l'équipement professionnel de taxi. Nous proposons la gamme complète AIR W ULTRA – les taximètres les plus avancés et innovants du marché, conçus pour faciliter et optimiser votre travail quotidien.",
+      "cta": "Demander un Devis",
+      "ctaSecondary": "Nos Produits"
+    },
+    "about": {
+      "badge": "Gamme AIR W ULTRA",
+      "title": "L'Innovation",
+      "titleAccent": "à Votre Service",
+      "description": "La gamme de taximètres AIR W ULTRA combine une technologie de pointe avec une ergonomie intuitive. Développés par ATA Electronics, leader européen de l'équipement taxi, ces taximètres intègrent des innovations exclusives qui les distinguent sur le marché : la molette de navigation pour parcourir les menus sans effort, un écran TFT industriel de haute qualité, et la révolutionnaire barre de progression tarifaire qui affiche en temps réel la prochaine augmentation du tarif aux passagers."
+    },
+    "products": {
+      "badge": "Nos Produits",
+      "title": "Gamme",
+      "titleAccent": "AIR W ULTRA",
+      "basic": {
+        "title": "AIR W ULTRA Basic",
+        "price": "2 100€ TTC",
+        "description": "La solution essentielle pour les professionnels du taxi. L'AIR W ULTRA Basic offre toutes les fonctionnalités fondamentales nécessaires pour une exploitation quotidienne fiable et efficace.",
+        "features": [
+          "Molette de navigation – Exclusivité ATA",
+          "Écran graphique TFT industriel",
+          "Barre de menus contextuelle",
+          "Sélection automatique tarif jour/nuit",
+          "Changement automatique heure été/hiver",
+          "Affichage automatique du minimum de perception",
+          "Gestion manuelle des suppléments",
+          "Mise en veille automatique en cas d'inactivité prolongée",
+          "Certifié MID et OIML R21"
+        ]
+      },
+      "connecte": {
+        "title": "AIR W ULTRA Connecté",
+        "price": "2 300€ TTC",
+        "popular": "Populaire",
+        "description": "Restez connecté à votre activité. La version Connecté ajoute des fonctionnalités de connectivité avancées, permettant une intégration transparente avec les systèmes de gestion de flotte et les applications de réservation.",
+        "features": [
+          "Toutes les fonctionnalités de l'AIR W ULTRA Basic",
+          "Compatibilité application 1001TAXIS",
+          "Affichage numérique des tarifs – fini les étiquettes papier",
+          "Connectivité améliorée pour la gestion de flotte",
+          "Transmission de données en temps réel",
+          "Programmation à distance possible",
+          "Compatible plateforme cloud ePRIMUS"
+        ]
+      },
+      "cam": {
+        "title": "AIR W ULTRA Cam",
+        "price": "2 550€ TTC",
+        "description": "Sécurité et documentation complètes. La version Cam intègre un système de caméra avancé pour votre protection et votre tranquillité d'esprit, combinant toutes les fonctionnalités de connectivité avec des capacités d'enregistrement vidéo.",
+        "features": [
+          "Toutes les fonctionnalités de l'AIR W ULTRA Connecté",
+          "Système de caméra intégré",
+          "Enregistrement vidéo HD",
+          "Documentation des trajets",
+          "Sécurité renforcée pour le chauffeur",
+          "Enregistrement conforme aux assurances",
+          "Options de stockage cloud"
+        ]
+      },
+      "cta": "Demander un Devis"
+    },
+    "specs": {
+      "badge": "Spécifications",
+      "title": "Excellence",
+      "titleAccent": "Technique",
+      "items": {
+        "dimensions": { "label": "Dimensions (L x H x P)", "value": "278 x 82 x 23 mm" },
+        "weight": { "label": "Poids", "value": "Environ 280 g" },
+        "operatingTemp": { "label": "Température de fonctionnement", "value": "-25°C à +70°C" },
+        "storageTemp": { "label": "Température de stockage", "value": "-40°C à +85°C" },
+        "humidity": { "label": "Tolérance d'humidité", "value": "Max. 93% d'humidité relative" },
+        "kCoefficient": { "label": "Plage coefficient K", "value": "500 à 120 000 impulsions/km" },
+        "distanceAccuracy": { "label": "Précision distance", "value": "4m ou 0,2% au-delà" },
+        "timeAccuracy": { "label": "Précision temps", "value": "0,2s ou 0,1% au-delà" },
+        "fareAccuracy": { "label": "Précision calcul tarif", "value": "0,1%" }
+      }
+    },
+    "certifications": {
+      "badge": "Certifications",
+      "title": "Conformité",
+      "titleAccent": "Réglementaire",
+      "european": {
+        "title": "Homologations européennes",
+        "items": ["MID", "CE", "EN 50148"]
+      },
+      "international": {
+        "title": "Homologations internationales",
+        "items": ["OIML R21", "Règlement R10"]
+      },
+      "luxembourg": {
+        "title": "Homologation Luxembourg",
+        "description": "Entièrement conforme à la réglementation taxi luxembourgeoise"
+      }
+    },
+    "ourServices": {
+      "badge": "Nos Services",
+      "title": "Services Taximètres",
+      "titleAccent": "Complets",
+      "installation": {
+        "title": "Installation",
+        "description": "Installation professionnelle par des techniciens certifiés. Nous garantissons une intégration parfaite de votre taximètre dans votre véhicule, avec toutes les connexions correctement configurées et testées."
+      },
+      "programming": {
+        "title": "Programmation",
+        "description": "Configuration experte des tarifs, suppléments et tous les paramètres selon la réglementation luxembourgeoise. Nous gérons les mises à jour tarifaires annuelles et toutes les modifications requises."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Services de maintenance et d'inspection réguliers pour maintenir votre taximètre en parfait état de fonctionnement. Temps de réponse rapide pour tout problème."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Support technique continu pour toutes vos questions et besoins. Nous sommes là pour vous aider à tirer le meilleur parti de votre équipement."
+      }
+    },
+    "whyChooseUs": {
+      "badge": "Pourquoi Nous",
+      "title": "L'Avantage",
+      "titleAccent": "AUTO TAX & TECH",
+      "items": [
+        { "title": "Expertise certifiée", "description": "Nos techniciens sont formés et certifiés par ATA Electronics" },
+        { "title": "Service rapide", "description": "Temps d'immobilisation minimal pour votre activité taxi" },
+        { "title": "Prix compétitifs", "description": "Meilleur rapport qualité-prix pour l'équipement professionnel au Luxembourg" },
+        { "title": "Présence locale", "description": "Basés à Sandweiler, nous servons tout le Luxembourg" },
+        { "title": "Solutions complètes", "description": "De l'installation au support continu" },
+        { "title": "Toutes marques", "description": "Nous intervenons sur toutes les marques et modèles de véhicules" }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Améliorer Votre Équipement Taxi?",
+      "description": "Contactez-nous dès aujourd'hui pour une consultation et un devis gratuits. Notre équipe est prête à vous aider à choisir la solution taximètre parfaite pour vos besoins.",
+      "button": "Demander un Devis"
+    }
   }
 }
